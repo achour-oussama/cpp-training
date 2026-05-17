@@ -1,0 +1,10 @@
+^D:\TRAINING\FIRST ITERATION\CPP-TRAINING\BUILD\CMAKEFILES\E126AAD94957872A40648B9B9229BEEE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Training/First Iteration/cpp-training" "-BD:/Training/First Iteration/cpp-training/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Training/First Iteration/cpp-training/build/ConcurrentProject.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
