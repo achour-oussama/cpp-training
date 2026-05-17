@@ -1,0 +1,11 @@
+#include "Task.h"
+
+class MixedTask : public Task {
+public:
+    MixedTask(int id) : Task(id) {}
+
+    void execute() override {
+        for (int i = 0; i < 100000; ++i) {} // CPU
+        std::this_thread::sleep_for(std::chrono::milliseconds(1)); // I/O
+    }
+};

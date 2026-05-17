@@ -1,0 +1,4 @@
+D:/Training/First Iteration/cpp-training/build/CMakeFiles/main.dir
+D:/Training/First Iteration/cpp-training/build/CMakeFiles/test.dir
+D:/Training/First Iteration/cpp-training/build/CMakeFiles/ALL_BUILD.dir
+D:/Training/First Iteration/cpp-training/build/CMakeFiles/ZERO_CHECK.dir
